@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registro de clientes</title>
+</head>
+<body>
+	<h3>Nombre: Oropeza Millan Javier Alejandro</h3><br>
+	<h1>Formulario de registro de clientes</h1><hr>
+	<form method="GET" action="practica3.php">
+	<label for="">Nombre del cliente</label><br>
+	<input type="text" name="nombre" placeholder="Nombre del cliente" required><br><br>
+
+	<label for="Edad">Edad</label><br>
+	<input type="number" name="edad" placeholder="Edad" required><br><br>
+
+	<label for="Correo">Correo electrónico</label><br>
+	<input type="email" name="correo" placeholder="Correo" required><br><br>
+
+	<label for="fecha_nacimiento">Fecha de nacimiento</label><br>
+	<input type="date" name="fecha_nacimiento" required=""><br><br>
+
+	<label for="sexo">Sexo</label><br>
+	femenino: <input type="radio" name="sexo" value="femenino"><br>
+	masculino: <input type="radio" name="sexo" value="masculino"><br><br>
+
+	<label for="areas">Areas de preferencia:</label><br>
+	<input type="checkbox" name="areas[]" value="Tecnologia"> Teccnologia <br>
+	<input type="checkbox" name="areas[]" value="Belleza"> Belleza <br>
+	<input type="checkbox" name="areas[]" value="Automoviles"> Automoviles <br>
+	<input type="checkbox" name="areas[]" value="Salud"> Salud <br><br>
+
+	<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
